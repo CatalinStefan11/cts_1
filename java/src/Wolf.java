@@ -1,9 +1,9 @@
 public class Wolf implements Runner {
 
-    private int WOLF_SPEED;
+    private final int WOLF_SPEED = 30;
 
-    public Wolf(int WOLF_SPEED) {
-        this.WOLF_SPEED = WOLF_SPEED;
+    public Wolf() {
+
     }
 
     @Override
