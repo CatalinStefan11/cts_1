@@ -9,7 +9,7 @@ public class PolarBear extends Bear{
 
     @Override
     public String toString() {
-        return "PolarBear{" +
+        return super.toString() + "PolarBear{" +
                 "POLAR_BEAR_SPEED=" + POLAR_BEAR_SPEED +
                 '}';
     }

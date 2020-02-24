@@ -16,7 +16,7 @@ public class Human implements Runner {
 
     @Override
     public String toString() {
-        return "Human{" +
+        return super.toString() +  "Human{" +
                 "age=" + age +
                 '}';
     }

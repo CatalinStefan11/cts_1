@@ -5,11 +5,11 @@ public class Wolf implements Runner {
     public Wolf() {
 
     }
-    
+
 
     @Override
     public String toString() {
-        return "Wolf{" +
+        return super.toString() + "Wolf{" +
                 "WOLF_SPEED=" + WOLF_SPEED +
                 '}';
     }

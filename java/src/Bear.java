@@ -4,6 +4,8 @@ public abstract class Bear implements Runner {
 
     }
 
-    public abstract String toString();
-
+    @Override
+    public String toString() {
+        return "Bear{}";
+    }
 }

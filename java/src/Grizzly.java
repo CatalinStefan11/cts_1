@@ -8,7 +8,7 @@ public class Grizzly extends Bear {
 
     @Override
     public String toString() {
-        return "Grizzly{" +
+        return super.toString() + "Grizzly{" +
                 "GRIZZLY_SPEED=" + GRIZZLY_SPEED +
                 '}';
     }
