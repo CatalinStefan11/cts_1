@@ -1,6 +1,6 @@
 public class Grizzly extends Bear {
 
-    private final int GRIZZLY_SPEED = 10;
+    private static final int GRIZZLY_SPEED = 10;
 
     public Grizzly() {
 

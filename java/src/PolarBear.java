@@ -1,6 +1,6 @@
 public class PolarBear extends Bear{
 
-    private final int POLAR_BEAR_SPEED = 20;
+    private static final int POLAR_BEAR_SPEED = 20;
 
     public PolarBear() {
 

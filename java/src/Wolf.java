@@ -1,10 +1,11 @@
 public class Wolf implements Runner {
 
-    private final int WOLF_SPEED = 30;
+    private static final int WOLF_SPEED = 30;
 
     public Wolf() {
 
     }
+    
 
     @Override
     public String toString() {
